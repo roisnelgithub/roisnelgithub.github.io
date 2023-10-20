@@ -1,0 +1,15 @@
+.main-tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main-tools {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+.react-icon {
+  width: 45px;
+  height: 45px;
+}

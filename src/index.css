@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.linkButton {
+  background-color: rgba(152, 219, 146, 0.945);
+  border-radius: 100px;
+  padding: 4px;
+  box-shadow: 0px 0px 12px rgba(0, 140, 255, 0.945);
+  width: 20px;
+  height: 20px;
+}
+
+.link-to-social-media {
+  transition: all 0.3s;
+}
+
+.link-to-social-media:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* ----------------- */
+.header-container {
+  padding: 2rem;
+}
+.about-summary {
+  max-width: 530px;
+}
+/* ----------------- */
+.main-container {
+  padding: 2rem;
+  padding-top: 0;
+}
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.studies-container {
+  padding: 2rem 0;
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+/* ----------------- */
+
+@media screen and (min-width: 900px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  .studies-container {
+    max-width: 850px;
+  }
+}

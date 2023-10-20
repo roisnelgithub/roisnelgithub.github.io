@@ -1,0 +1,66 @@
+.studies-summary-container {
+  text-align: start;
+}
+
+.studies-courses-container {
+  text-align: start;
+  margin-top: 4rem;
+}
+
+.courses-ul-container {
+  margin-top: 24px;
+}
+
+.studies-summary-container span,
+.studies-ul {
+  font-size: 0.8rem;
+}
+
+.studies-ul {
+  text-align: start;
+  font-size: 0.8rem;
+  margin: 12px 0;
+  padding: 0px 8px;
+}
+
+.ul-others,
+.ul-frond {
+  margin-top: 2.5rem;
+}
+
+.divider {
+  opacity: 0.8;
+  margin: 0;
+}
+.course-title {
+  margin: 5px 0;
+}
+
+.course-title p {
+  margin: 12px 0;
+}
+.course-title svg {
+  color: white;
+}
+.course-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .courses-ul-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 28px;
+  }
+
+  .ul-frond {
+    margin-top: 2.5rem;
+  }
+  .ul-javascript,
+  .ul-others {
+    margin-top: 0;
+  }
+}

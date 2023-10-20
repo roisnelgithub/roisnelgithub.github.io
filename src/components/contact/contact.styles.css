@@ -1,0 +1,8 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.avatar-contact-container {
+  margin-top: 8px;
+}
