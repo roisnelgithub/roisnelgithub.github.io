@@ -1,4 +1,22 @@
 import htmlIcon from "../assets/icons/html_icon.svg";
+import reactIcon from "../assets/icons/react_icon.svg";
+import cssIcon from "../assets/icons/css_icon.svg";
+import craIcon from "../assets/icons/create_react_app.svg";
+import viteIcon from "/vite.svg";
+import reactIconsIcon from "../assets/icons/react_icons_icon.svg";
+import reduxIcon from "../assets/icons/redux_icon.svg";
+import reactRouterIcon from "../assets/icons/react_router.svg";
+import axiosIcon from "../assets/icons/axios_icon.svg";
+import momentJsIcon from "../assets/icons/momentjs.svg";
+import tailwindCSSIcon from "../assets/icons/tailwindcss_icon.svg";
+
+import portafolioImg from "../assets/images/portafolio_pc.png";
+import portafolioMobileImg from "../assets/images/portafolio_mobile.png";
+import jobsterImg from "../assets/images/dashboard_jobster.png";
+import jobsterMobileImg from "../assets/images/jobster_mobile.png";
+import shopiImg from "../assets/images/platzi_shopi.png";
+import teaStationImg from "../assets/images/tea_station.png";
+import teaStationMobileImg from "../assets/images/tea_station_mobile.png";
 
 export const mainTools = [
   {
@@ -9,12 +27,12 @@ export const mainTools = [
   {
     id: 2,
     name: "React.js",
-    image: "/src/assets/icons/react_icon.svg",
+    image: reactIcon,
   },
   {
     id: 3,
     name: "CSS",
-    image: "/src/assets/icons/css_icon.svg",
+    image: cssIcon,
   },
 ];
 
@@ -22,20 +40,20 @@ export const projects = [
   {
     id: 1,
     name: "Portafolio",
-    image: "/src/assets/images/portafolio_pc.png",
-    mobileImage: "/src/assets/images/mobile_100x60.png",
+    image: portafolioImg,
+    mobileImage: portafolioMobileImg,
     tools: [
       {
         name: "React.js",
-        url: "/src/assets/icons/react_icon.svg",
+        url: reactIcon,
       },
       {
         name: "Vite.js",
-        url: "/vite.svg",
+        url: viteIcon,
       },
       {
         name: "React Icons",
-        url: "/src/assets/icons/react_icons_icon.svg",
+        url: reactIconsIcon,
       },
     ],
     url_public: "URL del sitio publicado",
@@ -48,36 +66,36 @@ export const projects = [
   {
     id: 2,
     name: "Jobster",
-    image: "/src/assets/images/dashboard_jobster.png",
-    mobileImage: "/src/assets/images/jobster_mobile.png",
+    image: jobsterImg,
+    mobileImage: jobsterMobileImg,
     tools: [
       {
         name: "React",
-        url: "/src/assets/icons/react_icon.svg",
+        url: reactIcon,
       },
       {
         name: "Create React App",
-        url: "/src/assets/icons/create_react_app.svg",
+        url: craIcon,
       },
       {
         name: "React Icons",
-        url: "/src/assets/icons/react_icons_icon.svg",
+        url: reactIconsIcon,
       },
       {
         name: "Redux",
-        url: "/src/assets/icons/redux_icon.svg",
+        url: reduxIcon,
       },
       {
         name: "React Router",
-        url: "/src/assets/icons/react_router.svg",
+        url: reactRouterIcon,
       },
       {
         name: "Axios",
-        url: "/src/assets/icons/axios_icon.svg",
+        url: axiosIcon,
       },
       {
         name: "MomentJS",
-        url: "/src/assets/icons/momentjs.svg",
+        url: momentJsIcon,
       },
     ],
     url_public: "",
@@ -90,24 +108,24 @@ export const projects = [
   {
     id: 3,
     name: "Shopi",
-    image: "/src/assets/images/platzi_shopi.png",
+    image: shopiImg,
     mobileImage: "",
     tools: [
       {
         name: "React",
-        url: "/src/assets/icons/react_icon.svg",
+        url: reactIcon,
       },
       {
         name: "React Router",
-        url: "/src/assets/icons/react_router.svg",
+        url: reactRouterIcon,
       },
       {
         name: "Vite.js",
-        url: "/vite.svg",
+        url: viteIcon,
       },
       {
         name: "TailwindCSS",
-        url: "/src/assets/icons/tailwindcss_icon.svg",
+        url: tailwindCSSIcon,
       },
     ],
     url_public: "",
@@ -120,16 +138,16 @@ export const projects = [
   {
     id: 4,
     name: "Tea Station",
-    image: "/src/assets/images/tea_station.png",
-    mobileImage: "/src/assets/images/tea_station_mobile.png",
+    image: teaStationImg,
+    mobileImage: teaStationMobileImg,
     tools: [
       {
         name: "HTML",
-        url: "/src/assets/icons/html_icon.svg",
+        url: htmlIcon,
       },
       {
         name: "CSS",
-        url: "/src/assets/icons/css_icon.svg",
+        url: cssIcon,
       },
     ],
     url_public: "",
