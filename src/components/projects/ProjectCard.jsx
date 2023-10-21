@@ -2,13 +2,11 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 
 import shopi from "../../assets/images/shopi.png";
-// import phone_tablet_icon from "../../assets/icons/phone_tablet_icon.svg";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 
 const ProjectCard = ({ project }) => {
   const [showDetail, setShowDetail] = useState(false);
-
   return (
     <div className="project-card-container">
       <div className="card-img-container">

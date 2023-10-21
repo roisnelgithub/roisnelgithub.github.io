@@ -1,8 +1,10 @@
+import htmlIcon from "../assets/icons/html_icon.svg";
+
 export const mainTools = [
   {
     id: 1,
     name: "HTML",
-    image: "/src/assets/icons/html_icon.svg",
+    image: htmlIcon,
   },
   {
     id: 2,
